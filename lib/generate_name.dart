@@ -8,7 +8,7 @@ class GenerateName extends StatelessWidget  {
         child: new Column(
           children:<Widget>[
             new Padding(padding: new EdgeInsets.all(20.0),),
-            new Text("Generate", style: TextStyle(fontSize: 30.0),),
+            new Text("Generate Nama Bayi", style: TextStyle(fontSize: 20.0),),
             new Padding(padding: new EdgeInsets.all(20.0),),
             new Icon(Icons.crop_free, size: 90.0,)
 

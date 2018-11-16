@@ -64,7 +64,9 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
   Widget build(BuildContext context){
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("1001 Nama Bayi Muslim"),
+        title: new Center(
+          child:new Text("1001 Nama Bayi Muslim")
+          ),
         bottom: new TabBar(
           controller: controller,
           tabs: <Widget>[
@@ -73,6 +75,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
             new Tab(icon: new Icon(Icons.favorite), text: "Favorit",),
           ],
         ),
+        backgroundColor: Colors.lightGreen,
       ),
 
       body: new TabBarView(
